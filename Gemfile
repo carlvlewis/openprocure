@@ -17,3 +17,6 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 # Deploy to Github
 gem "middleman-gh-pages"
+
+# Google Sheets API
+gem "middleman-google_drive"

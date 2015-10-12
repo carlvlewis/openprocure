@@ -19,6 +19,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <%= javascript_include_tag "all" %>
     <%= partial "layouts/social" %>
+    <%
+  # Read data from Google Sheets
+  activate :google_drive%>
   </body>
 </html>
 

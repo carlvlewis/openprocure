@@ -92,3 +92,6 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
+# Connect to Google Drive
+activate :google_drive, load_sheets: '13nyHeQDzZ2zRgDu87MmZiRoF6Uk_tXGBOpYLD07Aj94'
+
