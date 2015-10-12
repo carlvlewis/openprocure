@@ -38,6 +38,10 @@ activate :automatic_image_sizes
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
+  # Connect to Google Drive
+  activate :google_drive, load_sheets: {
+    procurement: '13nyHeQDzZ2zRgDu87MmZiRoF6Uk_tXGBOpYLD07Aj94'
+  }
 end
 
 # Render page.html.haml to page/index.html
@@ -91,7 +95,3 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
-
-# Connect to Google Drive
-activate :google_drive, load_sheets: '13nyHeQDzZ2zRgDu87MmZiRoF6Uk_tXGBOpYLD07Aj94'
-
